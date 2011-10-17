@@ -25,12 +25,12 @@ libraryDependencies ++= {
 
 // Customize any further dependencies as desired
 libraryDependencies ++= Seq(
-  "org.eclipse.jetty" % "jetty-webapp" % "7.3.0.v20110203" % "container,test", // For Jetty 7
-  //"org.mortbay.jetty" % "jetty" % "6.1.25" % "container,test", // For Jetty 6	
+  "org.eclipse.jetty" % "jetty-webapp" % "7.3.1.v20110307" % "container,test", // For Jetty 7
+  //"org.mortbay.jetty" % "jetty" % "6.1.26" % "container,test", // For Jetty 6	
   "com.novocode" % "junit-interface" % "0.7" % "test->default", //sbt's JUnit4 test interface
   "org.scala-tools.testing" %% "specs" % "1.6.9" % "test->default", // For specs.org tests
   "javax.servlet" % "servlet-api" % "2.5" % "provided->default",
-  "com.h2database" % "h2" % "1.2.138", // In-process database, useful for development systems
-  //"mysql" % "mysql-connector-java" % "5.1.6", //uncomment this line for MySQL
-  "ch.qos.logback" % "logback-classic" % "0.9.27" % "compile->default" // Logging
+  "com.h2database" % "h2" % "1.2.147", // In-process database, useful for development systems
+  //"mysql" % "mysql-connector-java" % "5.1.18", //uncomment this line for MySQL
+  "ch.qos.logback" % "logback-classic" % "0.9.30" % "compile->default" // Logging
 )
