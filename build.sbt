@@ -31,5 +31,6 @@ libraryDependencies ++= Seq(
   "org.scala-tools.testing" %% "specs" % "1.6.9" % "test->default", // For specs.org tests
   "javax.servlet" % "servlet-api" % "2.5" % "provided->default",
   "com.h2database" % "h2" % "1.2.138", // In-process database, useful for development systems
+  //"mysql" % "mysql-connector-java" % "5.1.6", //uncomment this line for MySQL
   "ch.qos.logback" % "logback-classic" % "0.9.27" % "compile->default" // Logging
 )
